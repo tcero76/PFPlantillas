@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="TCero Plantillas"
+            id="Plantillas">
+      </category>
+      <wizard
+            name="Crud Primefaces"
+            icon="icons/primefaces.png"
+            category="Plantillas"
+            class="pfplantillas.PF.CRUD"
+            id="pfplantillas.PF.CRUD">
+      </wizard>
+      <wizard
+            name="MasterDetail Primefaces"
+            icon="icons/primefaces.png"
+            category="Plantillas"
+            class="pfplantillas.PF.MasterDetail"
+            id="pfplantillas.PF.MasterDetail">
+      </wizard>
+      <wizard
+            name="Crud Bean"
+            icon="icons/jsf.png"
+            category="Plantillas"
+            class="pfplantillas.bean.CRUD"
+            id="pfplantillas.bean.CRUD">
+      </wizard>
+      <wizard
+            name="MasterDetail Bean"
+            icon="icons/jsf.png"
+            category="Plantillas"
+            class="pfplantillas.bean.MasterDetail"
+            id="pfplantillas.bean.MasterDetail">
+      </wizard>
+   </extension>
+
+</plugin>
